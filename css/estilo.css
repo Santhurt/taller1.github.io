@@ -1,0 +1,101 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.contenedor{
+    margin: 0 auto;
+    width: 100%;
+    
+
+    
+
+}
+
+input{
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+button{
+    background-color: rgb(150, 215, 176);
+    border-color: rgb(177, 227, 197);
+    color: black;
+}
+
+
+
+.entrada{
+
+    padding: 5px;
+    width: 70%;
+    height: 300px;
+    
+    border-style:outset;
+    border-width: 2px;
+    border-color: rgb(86, 86, 86);
+    float: left;
+
+    background-color: rgb(18, 18, 18);
+    color: white;
+    
+}
+.salida{
+    width: 20%;
+    background-color: rgb(18, 18, 18);
+    float: left;
+    border-style: outset;
+    height: 200px;
+    padding: 5px;
+    border-color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+h2{
+    background-color: black;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    border-width: 2px;
+    height: 100px;
+    
+    
+}
+
+input:hover{
+    background-color: rgb(18, 18, 18);
+}
+
+.menu{
+    width: 1000px;
+    border-style: outset;
+    border-color: rgb(86, 86, 86);
+    background-color: rgb(18, 18, 18);
+    padding: 5px;
+    
+}
+
+.menu ol li{
+    display: inline;
+    list-style: none;
+    background-color: rgb(68, 68, 68);
+    padding: 5px;
+    border-style: outset ;
+    border-color: rgb(109, 108, 108);
+}
+
+.menu ol li:hover{
+    background-color: gray;
+}
+
+.menu ol li a{
+    text-decoration:  none;
+    color: white;
+}
